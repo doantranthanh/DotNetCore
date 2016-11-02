@@ -1,0 +1,31 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "Microsoft.NETCore.Platforms/1.0.0": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.NETCore.Platforms/1.0.0": {
+      "sha512": "0N77OwGZpXqUco2C/ynv1os7HqdFYifvNIbveLDKqL5PZaz05Rl9enCwVBjF61aumHKueLWIJ3prnmdAXxww4A==",
+      "type": "package",
+      "path": "Microsoft.NETCore.Platforms/1.0.0",
+      "files": [
+        "Microsoft.NETCore.Platforms.1.0.0.nupkg.sha512",
+        "Microsoft.NETCore.Platforms.nuspec",
+        "runtime.json"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6": [
+      "Microsoft.NETCore.Platforms >= 1.0.0"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {}
+}
