@@ -1,0 +1,71 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "core.signup.entities/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Core.Signup.Entities.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Core.Signup.Entities.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.0.0": {
+        "type": "package"
+      }
+    },
+    ".NETFramework,Version=v4.6": {
+      "core.signup.entities/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Core.Signup.Entities.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Core.Signup.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "core.signup.entities/1.0.1": {
+      "sha512": "+e+CPO8oGic8UGyAgjiUrYd7Z6Wm7XruWGF3yiq5IBeedCNKnppXvl0y2csThQ3T89LjBlEckKOoAEFDQEZnkg==",
+      "type": "package",
+      "path": "core.signup.entities/1.0.1",
+      "files": [
+        "core.signup.entities.1.0.1.nupkg.sha512",
+        "core.signup.entities.nuspec",
+        "lib/net45/Core.Signup.Entities.dll",
+        "lib/net45/Core.Signup.Entities.pdb",
+        "lib/net46/Core.Signup.Entities.dll",
+        "lib/net46/Core.Signup.Entities.pdb",
+        "lib/netstandard1.6/Core.Signup.Entities.deps.json",
+        "lib/netstandard1.6/Core.Signup.Entities.dll",
+        "lib/netstandard1.6/Core.Signup.Entities.pdb"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/1.0.0": {
+      "sha512": "0N77OwGZpXqUco2C/ynv1os7HqdFYifvNIbveLDKqL5PZaz05Rl9enCwVBjF61aumHKueLWIJ3prnmdAXxww4A==",
+      "type": "package",
+      "path": "Microsoft.NETCore.Platforms/1.0.0",
+      "files": [
+        "Microsoft.NETCore.Platforms.1.0.0.nupkg.sha512",
+        "Microsoft.NETCore.Platforms.nuspec",
+        "runtime.json"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "core.signup.entities >= 1.0.1"
+    ],
+    ".NETFramework,Version=v4.5": [
+      "Microsoft.NETCore.Platforms >= 1.0.0",
+      "System.Xml.Linq >= 4.0.0"
+    ],
+    ".NETFramework,Version=v4.6": []
+  },
+  "tools": {},
+  "projectFileToolGroups": {}
+}

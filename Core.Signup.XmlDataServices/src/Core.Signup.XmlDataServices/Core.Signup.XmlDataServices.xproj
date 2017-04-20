@@ -6,21 +6,12 @@
   </PropertyGroup>
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
-  
   <PropertyGroup Label="Globals">
-    <ProjectGuid>95da1bdc-37c6-4f5a-938e-104c8c1218d1</ProjectGuid>
-    <RootNamespace>Core.Signup.Entities</RootNamespace>
+    <ProjectGuid>52239ccf-6951-47d0-8f83-eec048287144</ProjectGuid>
+    <RootNamespace>Core.Signup.XmlDataServices</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
-  </PropertyGroup>
-
-  <PropertyGroup Label="Globals">
-    <ProjectGuid>95da1bdc-37c6-4f5a-938e-104c8c1218d1</ProjectGuid>
-    <RootNamespace>Core.Signup.Entities</RootNamespace>
-    <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
-    <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
 
   <PropertyGroup>

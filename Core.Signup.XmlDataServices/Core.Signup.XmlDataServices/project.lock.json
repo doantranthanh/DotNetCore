@@ -1,0 +1,114 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "Core.Signup.Entities/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Core.Signup.Entities.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Core.Signup.Entities.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.0.0": {
+        "type": "package"
+      },
+      "System.Linq/4.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Xml.Linq/3.5.21022.801": {
+        "type": "package",
+        "compile": {
+          "lib/net20/System.Xml.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/net20/System.Xml.Linq.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Core.Signup.Entities/1.0.0": {
+      "sha512": "glmYZCCboMxxtCu1gxRNK+GvfsR2vpGQ9UPa4uhJYN25zFJL+pxUAohImd0bw07PgnMLUwf6efvbf48GhZvzlA==",
+      "type": "package",
+      "path": "Core.Signup.Entities/1.0.0",
+      "files": [
+        "Core.Signup.Entities.1.0.0.nupkg.sha512",
+        "Core.Signup.Entities.nuspec",
+        "lib/net46/Core.Signup.Entities.dll"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/1.0.0": {
+      "sha512": "0N77OwGZpXqUco2C/ynv1os7HqdFYifvNIbveLDKqL5PZaz05Rl9enCwVBjF61aumHKueLWIJ3prnmdAXxww4A==",
+      "type": "package",
+      "path": "Microsoft.NETCore.Platforms/1.0.0",
+      "files": [
+        "Microsoft.NETCore.Platforms.1.0.0.nupkg.sha512",
+        "Microsoft.NETCore.Platforms.nuspec",
+        "runtime.json"
+      ]
+    },
+    "System.Linq/4.0.0": {
+      "sha512": "r6Hlc+ytE6m/9UBr+nNRRdoJEWjoeQiT3L3lXYFDHoXk3VYsRBCDNXrawcexw7KPLaH0zamQLiAb6avhZ50cGg==",
+      "type": "package",
+      "path": "System.Linq/4.0.0",
+      "files": [
+        "System.Linq.4.0.0.nupkg.sha512",
+        "System.Linq.nuspec",
+        "lib/dotnet/System.Linq.dll",
+        "lib/net45/_._",
+        "lib/netcore50/System.Linq.dll",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "ref/dotnet/System.Linq.dll",
+        "ref/dotnet/System.Linq.xml",
+        "ref/dotnet/de/System.Linq.xml",
+        "ref/dotnet/es/System.Linq.xml",
+        "ref/dotnet/fr/System.Linq.xml",
+        "ref/dotnet/it/System.Linq.xml",
+        "ref/dotnet/ja/System.Linq.xml",
+        "ref/dotnet/ko/System.Linq.xml",
+        "ref/dotnet/ru/System.Linq.xml",
+        "ref/dotnet/zh-hans/System.Linq.xml",
+        "ref/dotnet/zh-hant/System.Linq.xml",
+        "ref/net45/_._",
+        "ref/netcore50/System.Linq.dll",
+        "ref/netcore50/System.Linq.xml",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._"
+      ]
+    },
+    "System.Xml.Linq/3.5.21022.801": {
+      "sha512": "U6hdQ1sCnMD/s2zqKl23g4Obdovr1ZUnrF1x+NRpaoZBeZX5PSwcp1dgvgvJaRsYZgwUzrC+tj9klb0mMnHUcQ==",
+      "type": "package",
+      "path": "System.Xml.Linq/3.5.21022.801",
+      "files": [
+        "System.Xml.Linq.3.5.21022.801.nupkg.sha512",
+        "System.Xml.Linq.nuspec",
+        "lib/net20/System.Xml.Linq.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Core.Signup.Entities >= 1.0.0",
+      "System.Linq >= 4.0.0",
+      "System.Xml.Linq >= 3.5.21022.801"
+    ],
+    ".NETFramework,Version=v4.6": [
+      "Microsoft.NETCore.Platforms >= 1.0.0"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {}
+}

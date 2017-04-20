@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Core.Signup.Entities</id>
+    <version>1.0.1</version>
+    <title>Core.Signup.Entities</title>
+    <authors>thanh doan</authors>
+    <owners>thanh doan</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Core.Signup.Entities</description>
+    <releaseNotes>Core.Signup.Entities Class Library.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Core.Signup.Entities</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\netstandard1.6\Core.Signup.Entities.dll" target="lib\netstandard1.6\Core.Signup.Entities.dll" />
+    <file src="bin\Release\netstandard1.6\Core.Signup.Entities.pdb" target="lib\netstandard1.6\Core.Signup.Entities.pdb" />
+    <file src="bin\Release\netstandard1.6\Core.Signup.Entities.deps.json" target="lib\netstandard1.6\Core.Signup.Entities.deps.json" />
+    <file src="bin\Release\net46\Core.Signup.Entities.dll" target="lib\net46\Core.Signup.Entities.dll" />
+    <file src="bin\Release\net46\Core.Signup.Entities.pdb" target="lib\net46\Core.Signup.Entities.pdb" />
+    <file src="bin\Release\net45\Core.Signup.Entities.dll" target="lib\net45\Core.Signup.Entities.dll" />
+    <file src="bin\Release\net45\Core.Signup.Entities.pdb" target="lib\net45\Core.Signup.Entities.pdb" />
+  </files>
+</package>

@@ -1,0 +1,22 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "core.signup.entities": "1.0.1"
+    
+  },
+
+  "frameworks": {
+    "net45": {
+      "dependencies": {
+        "Microsoft.NETCore.Platforms": "1.0.0"
+      },
+      "frameworkAssemblies": {
+        "System.Xml.Linq": "4.0.0.0"
+      }
+    },
+    "net46": {
+
+    }
+  }
+}
